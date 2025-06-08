@@ -1,4 +1,4 @@
-// core/db/annotations/Column.java
+// core/db/annotations/Id.java
 package core.db.annotations;
 
 import java.lang.annotation.Retention;
@@ -8,6 +8,4 @@ import java.lang.annotation.ElementType;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface Column {
-    String name();
-}
+public @interface Id { }
