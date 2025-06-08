@@ -25,6 +25,17 @@
             <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
+
+            <!-- ⬇️ Shto Lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.38</version>
+                <scope>provided</scope> <!-- nuk futet në JAR-in final -->
+            </dependency>
+
+            <!-- (varet) testet, etj. -->
+
     </dependencies>
 
     <!-- Plugin-et (opsionale, por të dobishme) -->

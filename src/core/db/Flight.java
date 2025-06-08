@@ -13,4 +13,5 @@ public class Flight {
 
     @Column(name = "base_price")
     private double basePrice;
+
 }
